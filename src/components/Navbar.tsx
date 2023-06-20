@@ -3,7 +3,7 @@ import Image from "next/image";
 import logo from "../../public/assets/logo.png";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaInstagram, FaGithub, FaMailchimp } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub} from "react-icons/fa";
 import { useState } from "react";
 
 export function Navbar() {
@@ -29,7 +29,7 @@ export function Navbar() {
               <li className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover hover:border-b hover:border-gray-400 
                duration-500 ease-in-out">
-                About
+                Sobre
               </li>
             </Link>
             <Link href="/">
@@ -43,14 +43,14 @@ export function Navbar() {
               <li className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
                duration-500 ease-in-out">
-                Projects
+                Projetos
               </li>
             </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
                duration-500 ease-in-out">
-                Contact
+                Contatos
               </li>
             </Link>
           </ul>
@@ -95,7 +95,7 @@ export function Navbar() {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4 ">
-              <p className="w-[85%] w-[90%] py-4 ">Coding your dream!</p>
+              <p className="w-[85%] md:w-[90%] py-4 ">Coding your dream!</p>
             </div>
           </div>
           <div className="py-4 flex flex-col ">
@@ -116,7 +116,7 @@ export function Navbar() {
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
                   >
-                    About
+                    Sobre
                   </p>
                 </li>
               </Link>
@@ -136,7 +136,7 @@ export function Navbar() {
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
                   >
-                    Projects
+                    Projetos
                   </p>
                 </li>
               </Link>
@@ -146,7 +146,7 @@ export function Navbar() {
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
                   >
-                    Contact
+                    Contatos
                   </p>
                 </li>
               </Link>
