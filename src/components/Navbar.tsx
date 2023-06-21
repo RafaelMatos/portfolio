@@ -12,7 +12,7 @@ export function Navbar() {
     setNavBar(!navBar);
   }
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className=" w-full h-20 shadow-xl  ">
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Image src={logo} width={75} height={50} alt="Rafa.tsx logo" />
 

@@ -13,8 +13,8 @@ Projeto realizado usando o framework Next.js e TailwindCSS. Projeto em desenvolv
   
 
 ## Ultima atualização 🔃
-- Componente Navbar criado e adaptado responsividade para mobile;
-- Sessão Main criada ;
+- Correção do conteudo Main sobrepondo o cabeçalho;
+- Sessão About(Sobre) criada ;
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
