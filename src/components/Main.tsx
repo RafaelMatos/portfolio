@@ -21,7 +21,7 @@ export function Main() {
             ,com o framework{" "}
             <span className="text-gray-900 font-bold">Next.js</span> e
             estilização com o{" "}
-            <span className="text-blue-400 font-bold">TailwindCSS</span>, além
+            <span className="text-[#38b2ac] font-bold">TailwindCSS</span>, além
             de outras ferramentas para criação de aplicações sofisticadas e
             responsivas.
           </p>

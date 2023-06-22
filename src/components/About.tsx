@@ -1,7 +1,7 @@
 export function About(){
   return (
     <div className="w-full p-2 flex items-center ">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mb-[10%]">
         <div className="col-span-2">
           <p className="uppercase text-2xl tracking-widest text-purple-700">Sobre</p>
           <h2 className="py-4">Quem sou eu</h2>
@@ -9,7 +9,7 @@ export function About(){
           <p className="py-2 text-gray-600">
             Sou amante da vida, gamer entusiasta e apreciador de boas artes e música.
             Desenvolvedor de software, em busca sempre de algo novo 
-            e inovador para o conhecimento no ramo do trabalho e da vida. 
+            e inovador para o conhecimento no ramo do trabalho e da vida. 
           </p>
           <p className="py-2 text-gray-600">
             Por tanto, sempre tento extrair de minhas experiências uma melhor versão
