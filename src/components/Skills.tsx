@@ -13,7 +13,8 @@ import Image from "next/image";
 import { SkillCard } from "./SkillCard";
 
 export function Skills() {
-  console.log("react :", react);
+  const prisma = 'https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png'
+  const axios = 'https://icon.icepanel.io/Technology/svg/Azios.svg'
   return (
     <div className="w-full p-2 mt-10">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full gap-y-4">
@@ -43,7 +44,8 @@ export function Skills() {
           <div className="py-2 text-gray-600 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             <SkillCard iconUrl={node} skillName="Node.js" />
             <SkillCard iconUrl={oracle} skillName="Oracle" />
-            <SkillCard iconUrl={express} skillName="Express" />
+            <SkillCard iconUrl={axios} skillName="Axios" />
+            <SkillCard iconUrl={prisma} skillName="Prisma" />
           </div>
         </div>
       </div>

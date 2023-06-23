@@ -13,8 +13,9 @@ Projeto realizado usando o framework Next.js e TailwindCSS. Projeto em desenvolv
   
 
 ## Ultima atualização 🔃
-- Correção do conteudo Main sobrepondo o cabeçalho;
 - Sessão About(Sobre) criada ;
+- Sessão Skills criada ;
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
