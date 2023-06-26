@@ -13,8 +13,8 @@ Projeto realizado usando o framework Next.js e TailwindCSS. Projeto em desenvolv
   
 
 ## Ultima atualização 🔃
-- Sessão About(Sobre) criada ;
 - Sessão Skills criada ;
+- Sessão Projetos criada ;
 
 
 
