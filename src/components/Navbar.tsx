@@ -3,8 +3,9 @@ import Image from "next/image";
 import logo from "../../public/assets/logo.png";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaInstagram, FaGithub} from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { useState } from "react";
+import { IconList } from "./IconList";
 
 export function Navbar() {
   const [navBar, setNavBar] = useState(false);
@@ -19,37 +20,47 @@ export function Navbar() {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:text-purple-800 
+              <li
+                className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
-               duration-500 ease-in-out">
+               duration-500 ease-in-out"
+              >
                 Home
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:text-purple-800 
+              <li
+                className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover hover:border-b hover:border-gray-400 
-               duration-500 ease-in-out">
+               duration-500 ease-in-out"
+              >
                 Sobre
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:text-purple-800 
+              <li
+                className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
-               duration-500 ease-in-out">
+               duration-500 ease-in-out"
+              >
                 Skills
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:text-purple-800 
+              <li
+                className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
-               duration-500 ease-in-out">
+               duration-500 ease-in-out"
+              >
                 Projetos
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:text-purple-800 
+              <li
+                className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
-               duration-500 ease-in-out">
+               duration-500 ease-in-out"
+              >
                 Contatos
               </li>
             </Link>
@@ -153,37 +164,10 @@ export function Navbar() {
             </ul>
             <div className="pt-40 ">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Call me for a talk!
+                Me chame pra uma conversa!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div
-                  className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800 
-                 hover:scale-105 ease-in duration-500 "
-                >
-                  <FaLinkedin size={25} />
-                </div>
-                <div
-                  className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800 
-                 hover:scale-105 ease-in duration-500 "
-                >
-                  <FaGithub size={25} />
-                </div>
-                <div
-                  className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800
-                  hover:scale-105 ease-in duration-500 "
-                >
-                  <FaInstagram size={25} />
-                </div>
-                <div
-                  className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800
-                  hover:scale-105 ease-in duration-500 "
-                >
-                  <AiOutlineMail size={25} />
-                </div>
+                <IconList/>
               </div>
             </div>
           </div>

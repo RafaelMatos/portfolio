@@ -1,5 +1,6 @@
-import { FaLinkedin, FaInstagram, FaGithub} from "react-icons/fa";
-import {AiOutlineMail } from "react-icons/ai";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import { IconList } from "./IconList";
 
 export function Main() {
   return (
@@ -26,26 +27,7 @@ export function Main() {
             responsivas.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800 
-                 hover:scale-105 ease-in duration-500 ">
-              <FaLinkedin size={25}/>
-            </div>
-            <div className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800 
-                 hover:scale-105 ease-in duration-500 ">
-              <FaGithub size={25}/>
-            </div>
-            <div className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800 
-                 hover:scale-105 ease-in duration-500 ">
-              <FaInstagram size={25}/>
-            </div>
-            <div className="rounded-full shadow-sm hover:shadow-lg
-                 shadow-gray-400 p-3 cursor-pointer hover:text-purple-800 
-                 hover:scale-105 ease-in duration-500 ">
-              <AiOutlineMail size={25}/>
-            </div>
+            <IconList/>
           </div>
         </div>
       </div>
