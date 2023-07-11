@@ -1,10 +1,8 @@
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
 import { IconList } from "./IconList";
 
 export function Main() {
   return (
-    <div className="w-full h-screen lg:h-auto lg:mt-20 lg:my-20 text-center">
+    <div id="home" className="w-full h-screen lg:h-auto lg:mt-20 lg:my-20 text-center">
       <div className="max-w-[1240px] w-full h-full  mx-auto p-2 flex justify-center items-center ">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">

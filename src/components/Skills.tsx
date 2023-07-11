@@ -8,15 +8,13 @@ import tailwind from "devicon/icons/tailwindcss/tailwindcss-plain.svg";
 import angular from "devicon/icons/angularjs/angularjs-original.svg";
 import node from "devicon/icons/nodejs/nodejs-original.svg";
 import oracle from "devicon/icons/oracle/oracle-original.svg";
-import express from "devicon/icons/express/express-original.svg";
-import Image from "next/image";
 import { SkillCard } from "./SkillCard";
 
 export function Skills() {
   const prisma = 'https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png'
   const axios = 'https://icon.icepanel.io/Technology/svg/Azios.svg'
   return (
-    <div className="w-full p-2 mt-10">
+    <div id="skills" className="w-full p-2 mt-10">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full gap-y-4">
         <p className="uppercase text-2xl tracking-widest text-purple-700">
           Skills

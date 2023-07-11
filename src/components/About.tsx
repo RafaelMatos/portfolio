@@ -1,6 +1,6 @@
 export function About(){
   return (
-    <div className="w-full p-2 flex items-center ">
+    <div id="about" className="w-full p-2 flex items-center ">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mb-[10%]">
         <div className="col-span-2">
           <p className="uppercase text-2xl tracking-widest text-purple-700">Sobre</p>

@@ -2,8 +2,7 @@
 import Image from "next/image";
 import logo from "../../public/assets/logo.png";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { IconList } from "./IconList";
 
@@ -15,11 +14,13 @@ export function Navbar() {
   return (
     <div className=" w-full h-20 shadow-xl  ">
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
-        <Image src={logo} width={75} height={50} alt="Rafa.tsx logo" />
+        <Link href={"/#home"}>
+          <Image src={logo} width={75} height={50} alt="Rafa.tsx logo" />
+        </Link>
 
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#home">
               <li
                 className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
@@ -28,7 +29,7 @@ export function Navbar() {
                 Home
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li
                 className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover hover:border-b hover:border-gray-400 
@@ -37,7 +38,7 @@ export function Navbar() {
                 Sobre
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li
                 className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
@@ -46,7 +47,7 @@ export function Navbar() {
                 Skills
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li
                 className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
@@ -55,7 +56,7 @@ export function Navbar() {
                 Projetos
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li
                 className="ml-10 text-sm uppercase hover:text-purple-800 
               hover:font-semibold hover:border-b border-gray-400
@@ -71,6 +72,7 @@ export function Navbar() {
         </div>
       </div>
       <div
+        onClick={handleNavbar}
         className={
           !navBar
             ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70"
@@ -112,7 +114,7 @@ export function Navbar() {
           <div className="py-4 flex flex-col ">
             <ul className="uppercase">
               <Link href="/">
-                <li className="py-4 text-sm">
+                <li onClick={handleNavbar} className="py-4 text-sm">
                   <p
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
@@ -121,8 +123,8 @@ export function Navbar() {
                   </p>
                 </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">
+              <Link href="/#about">
+                <li onClick={handleNavbar} className="py-4 text-sm">
                   <p
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
@@ -131,8 +133,8 @@ export function Navbar() {
                   </p>
                 </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">
+              <Link href="/#skills">
+                <li onClick={handleNavbar} className="py-4 text-sm">
                   <p
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
@@ -141,8 +143,8 @@ export function Navbar() {
                   </p>
                 </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">
+              <Link href="/#projects">
+                <li onClick={handleNavbar} className="py-4 text-sm">
                   <p
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
@@ -151,8 +153,8 @@ export function Navbar() {
                   </p>
                 </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">
+              <Link href="/#contact">
+                <li onClick={handleNavbar} className="py-4 text-sm">
                   <p
                     className="hover:font-semibold hover:text-purple-800 
                   duration-500 ease-in-out"
@@ -167,7 +169,7 @@ export function Navbar() {
                 Me chame pra uma conversa!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <IconList/>
+                <IconList />
               </div>
             </div>
           </div>
