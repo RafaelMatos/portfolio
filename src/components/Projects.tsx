@@ -36,7 +36,7 @@ export function Projects() {
           <ProjectCard
             imageUrl={timeLine}
             projectName="Timeline NLW"
-            projectUrl="/property"
+            projectUrl="https://github.com/RafaelMatos/NLW_Timeline_front"
             techName="Next JS"
           />
         </div>
