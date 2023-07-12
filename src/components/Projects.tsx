@@ -39,6 +39,12 @@ export function Projects() {
             projectUrl="https://github.com/RafaelMatos/NLW_Timeline_front"
             techName="Next JS"
           />
+          <ProjectCard
+            imageUrl={'https://github.com/RafaelMatos/XYZ/raw/master/src/screenshots/tela.gif'}
+            projectName="Agência XYZ"
+            projectUrl="https://agenciaxyz.vercel.app/"
+            techName="Next JS"
+          />
         </div>
       </div>
     </div>

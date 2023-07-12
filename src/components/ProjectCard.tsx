@@ -19,6 +19,8 @@ export function ProjectCard({ imageUrl, projectName,techName,projectUrl }: Proje
       <Image
         src={imageUrl}
         className=" rounded-xl group-hover:opacity-10"
+        width={700}
+        height={700}
         alt={`${projectName} screen`}
       />
       <div className="hidden  group-hover:block absolute  md:top-[50%] md:left-[50%] translate-x-[-50%] translate-y-[-50%] ">
