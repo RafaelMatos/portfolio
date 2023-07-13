@@ -2,6 +2,7 @@ import coffeeDelivery from "../../public/assets/projects/coffeeDelivery.gif";
 import dtmoney from "../../public/assets/projects/dtmoney.gif";
 import igniteShop from "../../public/assets/projects/igniteShop.gif";
 import timeLine from "../../public/assets/projects/timeline.gif";
+import xyz from "../../public/assets/projects/xyz.gif";
 
 import { ProjectCard } from "./ProjectCard";
 
@@ -40,7 +41,7 @@ export function Projects() {
             techName="Next JS"
           />
           <ProjectCard
-            imageUrl={'https://github.com/RafaelMatos/XYZ/raw/master/src/screenshots/tela.gif'}
+            imageUrl={xyz}
             projectName="Agência XYZ"
             projectUrl="https://agenciaxyz.vercel.app/"
             techName="Next JS"
