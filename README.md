@@ -12,9 +12,10 @@ Projeto realizado usando o framework Next.js e TailwindCSS. Projeto em desenvolv
   - React Icons
   
 
-## Ultima atualização 🔃
+## Ultimas atualizações 🔃
 - Sessão Skills criada ;
 - Sessão Projetos criada ;
+- Sessão de contato enviando email.
 
 
 
